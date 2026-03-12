@@ -1,0 +1,76 @@
+:root {
+    --color-amarillo: #ffe600;
+    --color-azul: #3483fa;
+    --color-verde: #00a650;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+}
+
+.anuncio {
+    background: #ffe600;
+    padding: 10px;
+    text-align: center;
+}
+
+.encabezado {
+    background: #ffe600;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.buscador {
+    display: flex;
+    gap: 10px;
+}
+
+.buscador input {
+    padding: 8px;
+    width: 300px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 10px;
+}
+
+.carrusel {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.slide {
+    background: white;
+    padding: 40px;
+    border: 1px solid #ddd;
+}
+
+.grilla-categorias {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.categoria {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
