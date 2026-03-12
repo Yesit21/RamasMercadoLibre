@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Marlon</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .portafolio-card {
+            background: white;
+            border-radius: 8px;
+            padding: 32px;
+            max-width: 600px;
+            margin: 40px auto;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+        }
+        .portafolio-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            margin: 0 auto 20px;
+        }
+        .portafolio-nombre {
+            font-size: 28px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .portafolio-descripcion {
+            text-align: center;
+            color: #666;
+            margin-bottom: 24px;
+        }
+        .portafolio-seccion {
+            margin-bottom: 20px;
+        }
+        .portafolio-seccion h3 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #3483fa;
+        }
+        .portafolio-seccion ul {
+            list-style: none;
+            padding: 0;
+        }
+        .portafolio-seccion li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .portafolio-tecnologias {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .tech-badge {
+            background: #e0f7fa;
+            color: #00838f;
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .portafolio-github {
+            display: inline-block;
+            background: #24292e;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 16px;
+        }
+        .portafolio-github:hover {
+            background: #1a1e22;
+        }
+    </style>
+</head>
+<body>
+    <section class="portafolio-card">
+        <div class="portafolio-avatar">🎨</div>
+        <h2 class="portafolio-nombre">Marlon García</h2>
+        <p class="portafolio-descripcion">Diseñador UI/UX enfocado en crear experiencias de usuario intuitivas y atractivas</p>
+
+        <div class="portafolio-seccion">
+            <h3>🎯 Servicios Ofrecidos</h3>
+            <ul>
+                <li>Diseño de interfaces de usuario (UI)</li>
+                <li>Prototipado interactivo</li>
+                <li>Investigación de experiencia de usuario (UX)</li>
+                <li>Sistemas de diseño y guías de estilo</li>
+                <li>Maquetación HTML/CSS responsiva</li>
+            </ul>
+        </div>
+
+        <div class="portafolio-seccion">
+            <h3>💻 Tecnologías</h3>
+            <div class="portafolio-tecnologias">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">Figma</span>
+                <span class="tech-badge">Adobe XD</span>
+                <span class="tech-badge">Sketch</span>
+                <span class="tech-badge">UI Design</span>
+                <span class="tech-badge">Prototyping</span>
+            </div>
+        </div>
+
+        <div class="portafolio-seccion">
+            <a href="https://github.com/marlon-design" class="portafolio-github" target="_blank">
+                📂 Ver GitHub
+            </a>
+        </div>
+    </section>
+</body>
+</html>
