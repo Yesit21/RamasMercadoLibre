@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,7 @@
 <body>
     <section class="portafolio">
         <h2>Desarrollador 1</h2>
-        <p>Nombre: Alejandra</p>
+        <p>Nombre: Alejandra Montilla</p>
         <p>Desarrolladora enfocada en interfaces web.</p>
         <ul>
             <li>HTML</li>
@@ -20,7 +21,7 @@
         <p>GitHub: github.com/dev1</p>
     </section>
         <h2>Desarrollador 2</h2>
-        <p>Nombre: Estacio</p>
+        <p>Nombre:Juan  Estacio</p>
         <p>Desarrollador enfocado en lógica y backend.</p>
         <ul>
             <li>JavaScript</li>
@@ -46,72 +47,399 @@
     </section>
     <title>MercadoLibre</title>
     <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mercado Libre Colombia</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
-    <div class="anuncio">
-        Envío gratis en miles de productos con Mercado Puntos
-    </div>
 
-    <header class="encabezado">
-        <div class="logo">MercadoLibre</div>
-        <div class="buscador">
-            <input type="search" id="campoBusqueda" placeholder="Buscar productos, marcas y más">
-            <button onclick="buscar()">Buscar</button>
-        </div>
-        <nav class="acciones">
-            <a href="#">Ingresar</a>
-            <a href="#">Crear cuenta</a>
-            <a href="#">Mis compras</a>
-            <a href="#">Carrito</a>
-            <a href="#">Vender</a>
-        </nav>
-    </header>
+<div class="anuncio">
+Envío gratis en miles de productos con Mercado Puntos
+</div>
 
-    <nav class="nav">
-        <ul>
-            <li>Categorías</li>
-            <li>Ofertas</li>
-            <li>Supermercado</li>
-            <li>Moda</li>
-            <li>Electrónica</li>
-        </ul>
-    </nav>
+<!-- NAVBAR NUEVO -->
+<nav class="navbar">
 
-    <section class="carrusel">
-        <div class="slide">Promoción 1</div>
-        <div class="slide">Promoción 2</div>
-        <div class="slide">Promoción 3</div>
-    </section>
+<div class="nav-top">
 
-    <section class="categorias">
-        <h2>Categorías</h2>
-        <div class="grilla-categorias">
-            <div class="categoria">Tecnología</div>
-            <div class="categoria">Moda</div>
-            <div class="categoria">Hogar</div>
-            <div class="categoria">Deportes</div>
-        </div>
-    </section>
+<div class="nav-container">
 
-    <footer class="footer">
-        <div class="footer-columna">
-            <h4>Acerca de</h4>
-            <p>Información corporativa</p>
-            <p>Trabaja con nosotros</p>
-        </div>
-        <div class="footer-columna">
-            <h4>Ayuda</h4>
-            <p>Centro de ayuda</p>
-            <p>Compras seguras</p>
-        </div>
-        <div class="footer-columna">
-            <h4>Redes</h4>
-            <p>Facebook</p>
-            <p>Instagram</p>
-        </div>
-        <p>MercadoLibre 2026</p>
-    </footer>
+<a href="#" class="logo">
+<img src="assets/mercado-libre-logo.png" alt="Mercado Libre" height="36">
+</a>
 
-    <script src="main.js"></script>
-</body>
-</html>
+<div class="search-container">
+
+<input type="text" id="searchInput"
+placeholder="Buscar productos, marcas y más..."
+class="search-input"/>
+
+<button class="search-btn">
+🔍
+</button>
+
+</div>
+
+<a href="#" class="promo-banner">
+Comprá con hasta 12 cuotas sin interés
+</a>
+
+</div>
+
+</div>
+
+<div class="nav-bottom">
+
+<div class="nav-container">
+
+<div class="nav-left">
+
+<button class="location-btn">
+📍 Enviar a <strong>Colombia</strong>
+</button>
+
+</div>
+
+<div class="nav-right">
+
+<a href="#" class="nav-link">Categorías</a>
+<a href="#" class="nav-link">Ofertas</a>
+<a href="#" class="nav-link">Supermercado</a>
+<a href="#" class="nav-link">Moda</a>
+<a href="#" class="nav-link">Vender</a>
+<a href="#" class="nav-link">Ayuda</a>
+
+<div class="nav-divider"></div>
+
+<button class="nav-user-btn">
+Crear cuenta
+</button>
+
+<button class="nav-login-btn">
+Ingresar
+</button>
+
+<button class="nav-cart-btn">
+🛒
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- CONTENIDO PRINCIPAL -->
+<main class="principal contenedor">
+
+<section class="hero">
+
+<div class="hero-slider">
+
+<div class="hero-slide active">
+
+<div class="hero-inner">
+
+<div class="hero-main">
+
+<div class="hero-badge">
+DEL 9 AL 11 DE MARZO
+</div>
+
+<h1 class="hero-title">
+CUPONES EXCLUSIVOS
+<span>SOLO POR 24 HORAS</span>
+</h1>
+
+<p class="hero-sub">
+SOLO PARA SUSCRIPTORES
+</p>
+
+</div>
+
+<aside class="hero-card">
+
+<div class="promo-card-inner">
+
+<div class="promo-top">
+PARA TI QUE YA ERES <strong>meli+</strong>
+</div>
+
+<div class="promo-big">
+15% DCTO
+</div>
+
+<p class="promo-code">
+CÓDIGO: <strong>MELIMASDAY</strong>
+</p>
+
+<a class="btn-primary" href="#">
+SUSCRÍBETE
+</a>
+
+</div>
+
+</aside>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- BENEFICIOS -->
+
+<section class="feature-row">
+
+<div class="feature-cards">
+
+<div class="feature-card">
+<div class="feature-icon">📦</div>
+<div class="feature-title">Envío gratis</div>
+</div>
+
+<div class="feature-card">
+<div class="feature-icon">👤</div>
+<div class="feature-title">Ingresa a tu cuenta</div>
+</div>
+
+<div class="feature-card">
+<div class="feature-icon">📍</div>
+<div class="feature-title">Ingresa tu ubicación</div>
+</div>
+
+<div class="feature-card">
+<div class="feature-icon">💳</div>
+<div class="feature-title">Medios de pago</div>
+</div>
+
+<div class="feature-card">
+<div class="feature-icon">🔥</div>
+<div class="feature-title">Más vendidos</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- PORTAFOLIO -->
+
+<section class="portfolio" id="portafolio">
+
+<div class="portfolio-container">
+
+<h2 class="section-title">
+Nuestro Equipo de Desarrollo
+</h2>
+
+<p class="section-subtitle">
+Conoce a los desarrolladores detrás de este proyecto
+</p>
+
+<div class="dev-grid">
+<!-- DEV 1 -->
+<div class="dev-card">
+
+<div class="dev-header">
+
+<div class="dev-avatar">
+<img src="https://via.placeholder.com/120">
+</div>
+
+<div class="dev-info">
+<h3>Alejandra</h3>
+<p class="dev-role">Desarrolladora Frontend</p>
+</div>
+
+</div>
+
+<div class="dev-body">
+
+<p class="dev-description">
+Desarrolladora enfocada en la creación de interfaces web modernas y experiencias de usuario intuitivas.
+</p>
+
+<div class="dev-section">
+
+<h4>Tecnologías</h4>
+
+<div class="tech-tags">
+<span class="tech-tag">HTML</span>
+<span class="tech-tag">CSS</span>
+<span class="tech-tag">JavaScript</span>
+</div>
+
+</div>
+
+
+<div class="dev-links">
+<a href="https://github.com/AlejandraMontillaucc" target="_blank" class="dev-btn">
+Ver GitHub
+</a>
+</div>
+
+
+</div>
+
+</div>
+
+<!-- DEV 2 -->
+ <div class="dev-card">
+
+<div class="dev-header">
+
+<div class="dev-avatar">
+<img src="https://via.placeholder.com/120">
+</div>
+
+<div class="dev-info">
+<h3>Juan Sebastian Estacio</h3>
+<p class="dev-role">Desarrollador Frontend</p>
+</div>
+
+</div>
+
+<div class="dev-body">
+
+<p class="dev-description">
+Desarrollador Frontend apasionado por crear interfaces modernas.
+</p>
+
+<div class="dev-section">
+
+<h4>Tecnologías</h4>
+
+<div class="tech-tags">
+
+<span class="tech-tag">HTML</span>
+<span class="tech-tag">CSS</span>
+<span class="tech-tag">JavaScript</span>
+
+</div>
+<div class="dev-links">
+<a href="https://github.com/JuanSebastianE23" target="_blank" class="dev-btn">
+Ver GitHub
+</a>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!--DEV 3-->
+<div class="dev-card">
+
+<div class="dev-header">
+
+<div class="dev-avatar">
+<img src="https://via.placeholder.com/120">
+</div>
+
+<div class="dev-info">
+<h3>Marlon Andrade</h3>
+<p class="dev-role">Desarrollador Full Stack</p>
+</div>
+
+</div>
+
+<div class="dev-body">
+
+<p class="dev-description">
+Desarrollador Full Stack especializado en aplicaciones web.
+</p>
+
+<div class="dev-section">
+
+<h4>Tecnologías</h4>
+
+<div class="tech-tags">
+
+<span class="tech-tag">HTML</span>
+<span class="tech-tag">CSS</span>
+<span class="tech-tag">JavaScript</span>
+<span class="tech-tag">Node.js</span>
+
+</div>
+<div class="dev-links">
+<a href="https://github.com/Yesit21" target="_blank" class="dev-btn">
+Ver GitHub
+</a>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+<div class="footer-container">
+
+<div class="footer-grid">
+
+<div class="footer-col">
+<h4>Sobre Mercado Libre</h4>
+<a href="#">Acerca de</a>
+<a href="#">Noticias</a>
+<a href="#">Inversores</a>
+<a href="#">Sustentabilidad</a>
+</div>
+
+<div class="footer-col">
+<h4>Ayuda</h4>
+<a href="#">Centro de ayuda</a>
+<a href="#">Cómo comprar</a>
+<a href="#">Cómo vender</a>
+<a href="#">Contacto</a>
+</div>
+
+<div class="footer-col">
+<h4>Redes</h4>
+<a href="#">Facebook</a>
+<a href="#">Instagram</a>
+<a href="#">Twitter</a>
+<a href="#">YouTube</a>
+</div>
+
+<div class="footer-col">
+<h4>Legal</h4>
+<a href="#">Términos y condiciones</a>
+<a href="#">Política de privacidad</a>
+<a href="#">Cookies</a>
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+Copyright © 1999-2025 MercadoLibre S.R.L.
+</div>
+
+</footer>
