@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Alejandra</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .portafolio-card {
+            background: white;
+            border-radius: 8px;
+            padding: 32px;
+            max-width: 600px;
+            margin: 40px auto;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+        }
+        .portafolio-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            margin: 0 auto 20px;
+        }
+        .portafolio-nombre {
+            font-size: 28px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .portafolio-descripcion {
+            text-align: center;
+            color: #666;
+            margin-bottom: 24px;
+        }
+        .portafolio-seccion {
+            margin-bottom: 20px;
+        }
+        .portafolio-seccion h3 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #3483fa;
+        }
+        .portafolio-seccion ul {
+            list-style: none;
+            padding: 0;
+        }
+        .portafolio-seccion li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .portafolio-tecnologias {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .tech-badge {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .portafolio-github {
+            display: inline-block;
+            background: #24292e;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 16px;
+        }
+        .portafolio-github:hover {
+            background: #1a1e22;
+        }
+    </style>
+</head>
+<body>
+    <section class="portafolio-card">
+        <div class="portafolio-avatar">👩‍💻</div>
+        <h2 class="portafolio-nombre">Alejandra Rodríguez</h2>
+        <p class="portafolio-descripcion">Desarrolladora Frontend especializada en crear interfaces web modernas y accesibles</p>
+
+        <div class="portafolio-seccion">
+            <h3>🎯 Servicios Ofrecidos</h3>
+            <ul>
+                <li>Desarrollo de interfaces web responsivas</li>
+                <li>Maquetación HTML/CSS desde diseños</li>
+                <li>Optimización de rendimiento web</li>
+                <li>Implementación de diseños accesibles (WCAG)</li>
+                <li>Integración con APIs REST</li>
+            </ul>
+        </div>
+
+        <div class="portafolio-seccion">
+            <h3>💻 Tecnologías</h3>
+            <div class="portafolio-tecnologias">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">Sass</span>
+                <span class="tech-badge">Git</span>
+                <span class="tech-badge">Figma</span>
+            </div>
+        </div>
+
+        <div class="portafolio-seccion">
+            <a href="https://github.com/alejandra-dev" class="portafolio-github" target="_blank">
+                📂 Ver GitHub
+            </a>
+        </div>
+    </section>
+</body>
+</html>

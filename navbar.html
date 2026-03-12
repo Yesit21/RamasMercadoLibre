@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Libre Colombia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- BARRA DE ANUNCIO -->
+    <div class="anuncio">
+        🌟 Envío gratis en miles de productos con Mercado Puntos. <a href="#">Conocé más</a>
+    </div>
+
+    <!-- ENCABEZADO -->
+    <header class="encabezado">
+        <div class="encabezado-inner">
+            <!-- LOGO -->
+            <a href="#" class="logo" aria-label="Mercado Libre inicio">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="Mercado Libre" style="height: 52px; width: auto;"/>
+            </a>
+
+            <!-- BUSCADOR -->
+            <div class="buscador">
+                <input type="search" id="campoBusqueda" placeholder="Buscar productos, marcas y más…" aria-label="Buscar"/>
+                <button onclick="buscar()" aria-label="Buscar">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- ACCIONES -->
+            <nav class="acciones" aria-label="Acciones de usuario">
+                <a href="#">Ingresar</a>
+                <a href="#"><strong>Crear cuenta</strong></a>
+                <a href="#">Mis compras</a>
+                <a href="#" class="carrito">🛒 Carrito</a>
+                <a href="#">Vender</a>
+            </nav>
+        </div>
+    </header>
+
+    <script src="main.js"></script>
+</body>
+</html>
