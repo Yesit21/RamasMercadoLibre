@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Estacio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .portafolio-card {
+            background: white;
+            border-radius: 8px;
+            padding: 32px;
+            max-width: 600px;
+            margin: 40px auto;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+        }
+        .portafolio-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            margin: 0 auto 20px;
+        }
+        .portafolio-nombre {
+            font-size: 28px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .portafolio-descripcion {
+            text-align: center;
+            color: #666;
+            margin-bottom: 24px;
+        }
+        .portafolio-seccion {
+            margin-bottom: 20px;
+        }
+        .portafolio-seccion h3 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #3483fa;
+        }
+        .portafolio-seccion ul {
+            list-style: none;
+            padding: 0;
+        }
+        .portafolio-seccion li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .portafolio-tecnologias {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .tech-badge {
+            background: #fce4ec;
+            color: #c2185b;
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .portafolio-github {
+            display: inline-block;
+            background: #24292e;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 16px;
+        }
+        .portafolio-github:hover {
+            background: #1a1e22;
+        }
+    </style>
+</head>
+<body>
+    <section class="portafolio-card">
+        <div class="portafolio-avatar">👨‍💻</div>
+        <h2 class="portafolio-nombre">Estacio Martínez</h2>
+        <p class="portafolio-descripcion">Desarrollador Backend enfocado en lógica de negocio y arquitectura de sistemas</p>
+
+        <div class="portafolio-seccion">
+            <h3>🎯 Servicios Ofrecidos</h3>
+            <ul>
+                <li>Desarrollo de APIs RESTful</li>
+                <li>Diseño de bases de datos</li>
+                <li>Integración de servicios externos</li>
+                <li>Optimización de consultas SQL</li>
+                <li>Implementación de autenticación y seguridad</li>
+            </ul>
+        </div>
+
+        <div class="portafolio-seccion">
+            <h3>💻 Tecnologías</h3>
+            <div class="portafolio-tecnologias">
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">Express</span>
+                <span class="tech-badge">MongoDB</span>
+                <span class="tech-badge">PostgreSQL</span>
+                <span class="tech-badge">Git</span>
+                <span class="tech-badge">Docker</span>
+            </div>
+        </div>
+
+        <div class="portafolio-seccion">
+            <a href="https://github.com/estacio-dev" class="portafolio-github" target="_blank">
+                📂 Ver GitHub
+            </a>
+        </div>
+    </section>
+</body>
+</html>
